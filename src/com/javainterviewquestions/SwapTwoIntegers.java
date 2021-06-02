@@ -30,11 +30,16 @@ public class SwapTwoIntegers {
 //		 System.out.println("Values of x:"+x+"and y is:"+y);
 //		 
 		 //using XOR operator
+		
 		 
 		 x= x^y; //15 0101 -->1111
 		 y=x^y; //1111 1010 -->0101
 		 x=x^y;//111
 		 System.out.println("Values of x:"+x+"and y is:"+y);
+		 
+		 System.out.println("File modified for GIT operations");
 	}
+	
+	
 
 }
